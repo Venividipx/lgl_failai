@@ -6,4 +6,4 @@ r=requests.get('http://google.com')
 
 soup=BeautifulSoup(r.text)
 
-print(soup)
+print(soup.prettify())
